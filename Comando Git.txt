@@ -1,0 +1,5 @@
+Comando Git
+
+git commit -m ""
+git add /
+git push origin master
