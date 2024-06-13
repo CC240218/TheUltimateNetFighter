@@ -10,10 +10,10 @@
 
 
 body{
-    color: rgba(255, 255, 255, 0.767);
+    color: rgb(240, 238, 238);
     background-color: var(--preto);
     font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%), url('../img/backgroud/fundoTela.jpg');
+    background: linear-gradient(rgba(0,0,0,.30),rgba(0, 0, 0, 0.829)100%), url('../img/backgroud/fundoTela.jpg');
     
     
     
@@ -54,9 +54,10 @@ header nav a:hover{
     color: rgba(253, 253, 253, 0.164);
     text-shadow: 1px 1px  rgb(245, 245, 245);
 }
+
 .movie-main{
-    height: 450px;
-    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)100%), url( '../img/capa/fundoTela.jpg');
+    height: 450px; 
+    
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -139,5 +140,9 @@ header nav a:hover{
     text-align: center;
 }
 
+main{
+     background: linear-gradient(rgba(0, 0, 0, 0.678),rgba(0, 0, 0, 0.699)100%), url( '../img/capa/Kof/capa_index.webp');
+     background-size: cover;
+}
 
 
