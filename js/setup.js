@@ -24,17 +24,39 @@ if(document.getElementById("kof97")) {
 }else if(document.getElementById("kof2003")){
     movieMainImage.style.backgroundImage = 'linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%),url(../img/capa/Kof/capakof2003.gif)';
     document.body.style.backgroundSize = 'cover'
+
 }else if(document.getElementById("garou")){
     movieMainImage.style.backgroundImage = 'linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%),url(../img/capa/Ffury/garou_capa.gif)';
     document.body.style.backgroundSize = 'cover'
+
 }else if(document.getElementById("realB")){
     movieMainImage.style.backgroundImage = 'linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%),url(../img/capa/Ffury/real_capa.gif)';
     document.body.style.backgroundSize = 'cover'
+
 }else if(document.getElementById("lastB2")){
     movieMainImage.style.backgroundImage = 'linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%),url(../img/capa/LastBlade/lastblade2.gif)';
     document.body.style.backgroundSize = 'cover'
-}
 
+}else if(document.getElementById("artOF")){
+    movieMainImage.style.backgroundImage = 'linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%),url(../img/capa/artF/art_capa.gif)';
+    document.body.style.backgroundSize = 'cover'
+
+}else if(document.getElementById("samurai")){
+    movieMainImage.style.backgroundImage = 'linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%),url(../img/capa/SamuraiSh/samurai_capa.gif)';
+    document.body.style.backgroundSize = 'cover'
+
+}else if(document.getElementById("svc_chaos")){
+    movieMainImage.style.backgroundImage = 'linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%),url(../img/capa/SVC/svc_capa.gif)';
+    document.body.style.backgroundSize = 'cover'
+
+}else if(document.getElementById("street2")){
+    movieMainImage.style.backgroundImage = 'linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%),url(../img/capa/Capcom/str2_capa.gif)';
+    document.body.style.backgroundSize = 'cover'
+
+}else if(document.getElementById("street5")){
+    movieMainImage.style.backgroundImage = 'linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%),url(../img/capa/Capcom/capaV.jpg)';
+    document.body.style.backgroundSize = 'cover'
+}
 
 // document.addEventListener("DOMContentLoaded", function() {
 //     var carouselImages = document.querySelectorAll('.carousel-movie .item img');
